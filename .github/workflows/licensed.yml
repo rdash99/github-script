@@ -21,4 +21,5 @@ jobs:
         with:
           version: '3.x'
       - uses: ./.github/actions/install-dependencies
+      - run: licensed cache
       - run: licensed status
